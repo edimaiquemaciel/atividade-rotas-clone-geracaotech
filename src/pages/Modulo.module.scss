@@ -1,0 +1,43 @@
+.moduloContainer {
+    width: 100%;
+    height: 100vh;
+
+    h1 {
+        color: #666;
+        margin-top: 3rem;
+        margin-left: 4rem;
+        max-width: 1000px;
+        display: inline-block;
+        position: relative;
+        &::after {
+            content: "";
+            background-color:  #009681;
+            position: absolute;
+            width: 1200px;
+            height: 4px;
+            bottom: 0;
+            left: 0;
+
+        }
+    }
+
+    h3 {
+        display: block;
+        text-align: center;
+        font-size: 1.7rem;
+        color: #555;
+        margin-top: 20px;
+    }
+
+    div {
+        margin-top: 30px;
+        margin-left: 4rem;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+        ul {
+            list-style: none;
+        }
+    }
+}

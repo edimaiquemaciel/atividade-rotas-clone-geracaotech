@@ -1,0 +1,34 @@
+.containerErro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 100vh;
+    h1 {
+        color: red;
+        font-size: 7rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        color: #555;
+        font-size: 1.2rem;
+    }
+    button {
+        background-color: #007bff;
+        padding: 15px;
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin-top: 20px;
+        border-radius: 6px;
+        font-size: 1.2rem;
+        transition: background-color 0.3s ease-in-out;
+        &:hover {
+            background-color: #0056b3;
+        }
+    }
+}
